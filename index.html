@@ -3,85 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitTrack - Your Ultimate Fitness Partner</title>
+    <title>Advantage Fitness Training</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <a href="#home" class="logo">FitTrack</a>
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#download">Download</a></li>
-                </ul>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span>(619) 837-7866</span>
             </div>
-        </nav>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Transform Your Fitness Journey with FitTrack</h1>
-                <p>Track workouts, set goals, and achieve your fitness dreams with our easy-to-use app.</p>
-                <a href="#download" class="cta-button">Get Started</a>
+            <div class="login-register">
+                <a href="#">Login</a> | <a href="#">Register</a>
             </div>
-        </section>
-    </header>
-
-    <main>
-        <section id="features">
-            <div class="container">
-                <h2>Features</h2>
-                <div class="feature">
-                    <img src="feature1.png" alt="Workout Tracking">
-                    <h3>Workout Tracking</h3>
-                    <p>Log your workouts, monitor progress, and stay motivated with detailed analytics.</p>
-                </div>
-                <div class="feature">
-                    <img src="feature2.png" alt="Personalized Plans">
-                    <h3>Personalized Plans</h3>
-                    <p>Get customized workout and nutrition plans tailored to your goals and fitness level.</p>
-                </div>
-                <div class="feature">
-                    <img src="feature3.png" alt="Community Support">
-                    <h3>Community Support</h3>
-                    <p>Connect with fellow fitness enthusiasts, share your progress, and get inspired.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <div class="container">
-                <h2>What Our Users Say</h2>
-                <div class="testimonial">
-                    <img src="user1.jpg" alt="User 1">
-                    <blockquote>"FitTrack has completely transformed my fitness routine. The personalized plans are a game changer!" - Sarah L.</blockquote>
-                </div>
-                <div class="testimonial">
-                    <img src="user2.jpg" alt="User 2">
-                    <blockquote>"I love the community support and how easy it is to track my progress. Highly recommend!" - James T.</blockquote>
-                </div>
-            </div>
-        </section>
-
-        <section id="download">
-            <div class="container">
-                <h2>Download the App</h2>
-                <p>Available on both iOS and Android. Start your fitness journey today!</p>
-                <a href="https://appstore.com" class="cta-button">Download on the App Store</a>
-                <a href="https://playstore.com" class="cta-button">Get it on Google Play</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 FitTrack. All rights reserved.</p>
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-            </ul>
         </div>
-    </footer>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Advantage Fitness Training">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Service Areas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="cta">Get in Touch</a>
+        </nav>
+    </header>
+    
+    <section class="hero" style="background-image: url('gym-background.jpg'); background-size: cover; background-position: center; width: 100%; height: 500px; text-align: center; color: white; position: relative;">
+        <div style="position: relative; z-index: 1;">
+            <h1>Transform Your Body and Mind for Lasting Success</h1>
+            <p>Discover a Customized Approach to Achieve Your Fitness Goals</p>
+            <a href="#" class="cta" style="background-color: #f33a3a; color: white; padding: 15px 30px; text-decoration: none; font-weight: 700; border-radius: 5px; font-size: 16px;">Shop Now</a>
+        </div>
+        <div style="content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 0;"></div>
+    </section>
 </body>
 </html>
-

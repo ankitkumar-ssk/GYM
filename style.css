@@ -1,121 +1,114 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-}
-
-nav .container {
+/* Set up the top bar */
+.top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
+    padding: 10px 20px;
+    background-color: #f33a3a; /* Red background for the top bar */
+    color: white;
 }
 
-nav .logo {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #fff;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 5em 0;
-}
-
-.hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.cta-button {
-    background: #e94e77;
-    color: #fff;
-    padding: 0.75em 2em;
-    text-decoration: none;
-    border-radius: 5px;
+.top-bar .contact-info {
     font-weight: bold;
 }
 
-main {
-    padding: 2em 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.feature {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.feature img {
-    max-width: 100px;
-    margin-bottom: 0.5em;
-}
-
-.testimonial {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.testimonial img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 0.5em;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin-left: 1em;
-}
-
-footer ul li a {
-    color: #fff;
+.top-bar .login-register a {
+    color: white;
     text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
+/* Set up the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark background for the navbar */
+}
+
+.logo img {
+    width: 200px;  /* Set the desired width */
+    height: 50px;  /* Set the desired height */
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Centers the navigation links */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space out the navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Call to Action (CTA) button */
+.cta {
+    background-color: #f33a3a;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('gym-background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-text .cta {
+    background-color: #f33a3a;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 16px;
+}
