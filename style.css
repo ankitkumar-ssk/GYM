@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background: #e94e77;
+    color: #fff;
+    padding: 0.75em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.feature img {
+    max-width: 100px;
+    margin-bottom: 0.5em;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 1em;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
