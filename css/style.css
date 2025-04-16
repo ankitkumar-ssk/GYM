@@ -907,6 +907,7 @@ flex: 0 0 100%;
 .contact .content{
 	flex-wrap: wrap;
 }
+
 .contact .content .box {
     flex: 0 0 100%;
     max-width: 100%;
